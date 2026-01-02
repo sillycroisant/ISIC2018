@@ -1,0 +1,17 @@
+dataset:
+  x_train: D:/HAM10K_with_DenseNet121/data/train/Training_Input
+  x_train_augmented: D:/HAM10K_with_DenseNet121/data/train/Augmented_Input 
+  y_train: D:/HAM10K_with_DenseNet121/data/train/train_groundtruth.csv
+
+
+  x_valid: D:/HAM10K_with_DenseNet121/data/valid/valid_input
+  y_valid: D:/HAM10K_with_DenseNet121/data/valid/valid_groundtruth.csv
+
+  x_test: D:/HAM10K_with_DenseNet121/data/test/Test_Input
+  y_test: D:/HAM10K_with_DenseNet121/data/test/test_groundtruth.csv
+
+parameter:
+  lr : 0.0005
+  epoch : 10
+  batch_size : 32
+  dropout_rate : 0.1
