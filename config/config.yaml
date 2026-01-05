@@ -1,13 +1,13 @@
 dataset:
-  x_train: D:/HAM10K_with_DenseNet121/data/train/Training_Input
-  y_train: D:/HAM10K_with_DenseNet121/data/train/train_groundtruth.csv
+  x_train: D:/ISIC2018/data/train/Training_Input
+  y_train: D:/ISIC2018/data/train/train_groundtruth.csv
 
 
-  x_valid: D:/HAM10K_with_DenseNet121/data/valid/valid_input
-  y_valid: D:/HAM10K_with_DenseNet121/data/valid/valid_groundtruth.csv
+  x_valid: D:/ISIC2018/data/valid/valid_input
+  y_valid: D:/ISIC2018/data/valid/valid_groundtruth.csv
 
-  x_test: D:/HAM10K_with_DenseNet121/data/test/Test_Input
-  y_test: D:/HAM10K_with_DenseNet121/data/test/test_groundtruth.csv
+  x_test: D:/ISIC2018/data/test/Test_Input
+  y_test: D:/ISIC2018/data/test/test_groundtruth.csv
 
 chunk: 10
 

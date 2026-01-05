@@ -20,7 +20,12 @@ Biểu đồ loss và accuracy của mô hình trong quá trình training
 Đồ thị confusion matrix của mô hình với 1 chunk dữ liệu train (sau 10 epochs)
 ![HAM10l_with_MobileNet](figure/train_set_confusion_matrix_1chunk.png)
 
+Giá trị loss và accuracy của mô hình khi huấn luyện dao động khá lớn có thể do learning rate vẫn còn khá cao.
+
 Sau khi huấn luyện mô hình với 10 epochs, sẽ thực hiện suy luận với tập test và lưu kết quả vào 1 file "test_preds.csv"
 Vì không có labels để đối chứng nên mình sẽ dùng độ phân bố của kết quả dự đoán và độ tin cậy để đánh giá kết quả
+
 ![HAM10l_with_MobileNet](figure/test_pred_distribution.png)
+
 ![HAM10l_with_MobileNet](figure/test_pred_confidence_distribution.png)
+
